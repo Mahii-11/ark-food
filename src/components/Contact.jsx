@@ -6,7 +6,7 @@ import { fadeLeft, fadeRight, fadeUp, staggerContainer, easing } from "../lib/an
 const CONTACT_INFO = [
   { icon: Mail,   label: "Email",       value: "info.arkworldfoods@creativeassociate.co.uk" },
   { icon: Phone,  label: "Phone",       value: "+447736356704" },
-  { icon: MapPin, label: "Head Office", value: "Y08, 11 Bryant Avenue, Harold Wood, Romford,  RM13 0AP, London." },
+  { icon: MapPin, label: "Head Office", value: "Office Y08, 11 Bryant Avenue, Harold Wood, Romford,  RM13 0AP, London." },
 ];
 
 const PRODUCT_OPTIONS = [
