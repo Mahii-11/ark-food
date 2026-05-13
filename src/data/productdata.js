@@ -1,9 +1,9 @@
 import { Globe, ShieldCheck, Truck, Package, MessageSquare } from "lucide-react";
 
-export const PRODUCTS = [
+export const RiceData = [
   {
     id: 1,
-    name: "AKIJ ESSENTIAL CHINIGURA RICE",
+    name: "ACI PURE AROMATIC/Cinigura Rice",
     image: "/images/rice-1.jpg",
     variants: [
       { size: "1kg", packUnits: 10, price: 120 },
@@ -13,7 +13,7 @@ export const PRODUCTS = [
   },
   {
     id: 2,
-    name: "AKIJ ESSENTIAL KALIJEERA RICE",
+    name: "ACI PURE KALIJEERA AROMATIC RICE",
     image: "/images/rice-2.jpg",
     variants: [
       { size: "1kg", packUnits: 10, price: 140 },
@@ -21,116 +21,294 @@ export const PRODUCTS = [
       { size: "5kg", packUnits: 2, price: 650 },
     ],
   },
+ 
   {
     id: 3,
-    name: "Pure Chinigura Rice",
-    image: "/images/rice-3.jpg",
-    variants: [
-      { size: "1kg", packUnits: 10, price: 115 },
-      { size: "2kg", packUnits: 5, price: 220 },
-      { size: "5kg", packUnits: 2, price: 560 },
-    ],
-  },
-  {
-    id: 4,
-    name: "Pure Kalijeera Rice",
-    image: "/images/image-1.jpeg",
+    name: "ARK RED BINNI RICE",
+    image: "/images/rice-4.jpg",
     variants: [
       { size: "1kg", packUnits: 10, price: 135 },
       { size: "2kg", packUnits: 5, price: 260 },
       { size: "5kg", packUnits: 2, price: 640 },
     ],
   },
+
+
   {
-    id: 5,
+    id: 4,
     name: "ARK White Binni Rice",
-    image: "/images/image-2.jpeg",
+    image: "/images/rice-5.jpg",
     variants: [
       { size: "1kg", packUnits: 10, price: 95 },
     ],
   },
+];
+
+
+export const CookingData = [
   {
+    id: 1,
+    name: "ACI PURE KHEER MIX",
+    image: "/cooking/ACI Pure Kheer Mix 150g-Paper Pack.jpg",
+    variants: [
+      { size: "1kg", packUnits: 10, price: 120 },
+      { size: "2kg", packUnits: 5, price: 235 },
+      { size: "5kg", packUnits: 2, price: 580 },
+    ],
+  },
+  {
+    id: 2,
+    name: "ARK CHARTOPOTI DAL (DUBLY)",
+    image: "/cooking/ARK YELLOW PEAS (Chatpati dal) 500gm.jpg",
+    variants: [
+      { size: "500gm", packUnits: 20, price: 140 },
+    
+    ],
+  },
+ 
+  {
+    id: 3,
+    name: "ACI PURE FLOUR",
+    image: "/cooking/ata.jpg",
+    variants: [
+      { size: "1kg", packUnits: 10, price: 135 },
+      { size: "2kg", packUnits: 5, price: 260 },
+      { size: "5kg", packUnits: 2, price: 640 },
+    ],
+  },
+
+
+  {
+    id: 4,
+    name: "ARK DATE MOLASES",
+    image: "/cooking/khejurgur.jpg",
+    variants: [
+      { size: "700gm", packUnits: 12, price: 95 },
+    ],
+  },
+
+   {
+    id: 5,
+    name: "ACI PURE LACHCHA SEMAI",
+    image: "/cooking/lacchasemai-2.jpg",
+    variants: [
+      { size: "200gm", packUnits: 40, price: 95 },
+    ],
+  },
+
+   {
     id: 6,
-    name: "ARK Red Binni Rice",
-    image: "/images/image-3.jpeg",
+    name: "ARK LACHCHA SEMAI (BOX)",
+    image: "/cooking/lacchasemai.jpg",
     variants: [
-      { size: "1kg", packUnits: 10, price: 105 },
+      { size: "1kg", packUnits: 10, price: 95 },
     ],
   },
-  {
+
+   {
     id: 7,
-    name: "Essential Rice Flour",
-    image: "/images/image-4.jpeg",
+    name: "ACI PURE MAIDA FLOUR",
+    image: "/cooking/moyda.jpg",
     variants: [
-      { size: "1kg", packUnits: 10, price: 85 },
+      { size: "1kg", packUnits: 10, price: 95 },
     ],
   },
-  {
+
+   {
     id: 8,
-    name: "Essential Red Lentil",
-    image: "/images/image-5.jpeg",
+    name: "CP ACIPURE Instant Noodles",
+    image: "/cooking/noodlles.jpg",
     variants: [
-      { size: "1000gm", packUnits: 10, price: 150 },
+      { size: "496gm", packUnits: 12, price: 95 },
     ],
   },
-  {
+
+   {
     id: 9,
-    name: "ARK MUNG DAL",
-    image: "/images/image-6.jpeg",
+    name: "ARK PANI PURI / GOLGAPPA",
+    image: "/cooking/panipuri.jpg",
     variants: [
-      { size: "1kg", packUnits: 10, price: 165 },
+      { size: "200gm", packUnits: 24, price: 95 },
     ],
   },
-  {
+
+   {
     id: 10,
-    name: "ARK Kheshari Dal (Yellow Lentil)",
-    image: "/images/image-7.jpeg",
+    name: "ACI PURE SALT",
+    image: "/cooking/salt.jpg",
     variants: [
-      { size: "1000gm", packUnits: 10, price: 130 },
+      { size: "1kg", packUnits: 10, price: 95 },
     ],
   },
-  {
+
+   {
     id: 11,
-    name: "ARK Chatpoti Dal (Yellow Peas)",
-    image: "/images/image-8.jpeg",
+    name: "ACI PURE MUSTARD OIL",
+    image: "/cooking/sorisha.jpg",
     variants: [
-      { size: "500gm", packUnits: 20, price: 75 },
+      { size: "250ml", packUnits: 24, price: 95 },
+      { size: "500ml", packUnits: 24, price: 95 },
+      { size: "1000ml", packUnits: 12, price: 95 },
     ],
   },
-  {
+
+   {
     id: 12,
-    name: "ARK Red Flattened Rice (Chira)",
-    image: "/images/image-10.jpeg",
+    name: "ACI PURE SHUJI",
+    image: "/cooking/suji.jpg",
     variants: [
-      { size: "500gm", packUnits: 20, price: 60 },
+      { size: "1kg", packUnits: 10, price: 95 },
     ],
   },
-  {
+
+   {
     id: 13,
-    name: "PURE Flattened Rice (Chira)",
-    image: "/images/image-1.jpeg",
+    name: "ACI PURE VERMICELLI",
+    image: "/cooking/vemicellisemai.jpg",
     variants: [
-      { size: "500gm", packUnits: 20, price: 65 },
-    ],
-  },
-  {
-    id: 14,
-    name: "ARK Puffed Rice",
-    image: "/images/image-2.jpeg",
-    variants: [
-      { size: "250gm", packUnits: 32, price: 40 },
-      { size: "500gm", packUnits: 16, price: 75 },
-    ],
-  },
-  {
-    id: 15,
-    name: "ACI Pure Vermicelli",
-    image: "/images/image-3.jpeg",
-    variants: [
-      { size: "200gm", packUnits: 48, price: 35 },
+      { size: "200gm", packUnits: 48, price: 95 },
     ],
   },
 ];
+
+
+
+export const SpicesData = [
+  {
+    id: 1,
+    name: "ACI PURE CHATPATI MASALA",
+    image: "/spices/ACI Pure Chatpati Masala-50 gm-Paper Pack (1).jpg",
+    variants: [
+      { size: "1kg", packUnits: 10, price: 120 },
+      { size: "2kg", packUnits: 5, price: 235 },
+      { size: "5kg", packUnits: 2, price: 580 },
+    ],
+  },
+  {
+    id: 2,
+    name: "ACI PURE CHIKEN TANDOORI MASALA",
+    image: "/spices/ACI Pure Chicken-Tandoori masala50g-Paper Pack.jpg",
+    variants: [
+      { size: "50gm", packUnits: 20, price: 140 },
+    
+    ],
+  },
+ 
+  {
+    id: 3,
+    name: "ACI PURE KABAB MASALA",
+    image: "/spices/ACI Pure Kabab Masala 50g-Paper Pack.jpg",
+    variants: [
+      { size: "1kg", packUnits: 10, price: 135 },
+      { size: "2kg", packUnits: 5, price: 260 },
+      { size: "5kg", packUnits: 2, price: 640 },
+    ],
+  },
+
+
+  {
+    id: 4,
+    name: "ACI PURE MESABANI BEEF",
+    image: "/spices/ACI Pure Mezbani Beef Masala-Paper Pack.jpg",
+    variants: [
+      { size: "700gm", packUnits: 12, price: 95 },
+    ],
+  },
+
+   {
+    id: 5,
+    name: "ACI PURE SHAHI BIRIYANI MASALA",
+    image: "/spices/ACI Pure Shahi Birayani Masala 40g-Paper pack.jpg",
+    variants: [
+      { size: "200gm", packUnits: 40, price: 95 },
+    ],
+  },
+
+   {
+    id: 6,
+    name: "ACI PURE SHAHI HALEEM MIX",
+    image: "/spices/shahi haleem mix.jpg",
+    variants: [
+      { size: "1kg", packUnits: 10, price: 95 },
+    ],
+  },
+
+   {
+    id: 7,
+    name: "ACI PURE SHAHI ROAST MASALA",
+    image: "/spices/shahi roast masala.jpg",
+    variants: [
+      { size: "1kg", packUnits: 10, price: 95 },
+    ],
+  },
+
+   {
+    id: 8,
+    name: "ACI PURE TEHARI MASALA",
+    image: "/spices/teheri masala.jpg",
+    variants: [
+      { size: "496gm", packUnits: 12, price: 95 },
+    ],
+  },
+
+   {
+    id: 9,
+    name: "ARK BLACK PAPER POWDER",
+    image: "/spices/black pepper.jpg",
+    variants: [
+      { size: "200gm", packUnits: 24, price: 95 },
+    ],
+  },
+
+   {
+    id: 10,
+    name: "ARK CHROTA STICKS",
+    image: "/spices/chirata.jpg",
+    variants: [
+      { size: "1kg", packUnits: 10, price: 95 },
+    ],
+  },
+
+   {
+    id: 11,
+    name: "ARK SABUDANA TAPIOCA PEARL",
+    image: "/spices/sabudana.jpg",
+    variants: [
+      { size: "250ml", packUnits: 24, price: 95 },
+      { size: "500ml", packUnits: 24, price: 95 },
+      { size: "1000ml", packUnits: 12, price: 95 },
+    ],
+  },
+
+   {
+    id: 12,
+    name: "ACI PURE SHUJI",
+    image: "/spices/tejpata.jpg",
+    variants: [
+      { size: "1kg", packUnits: 10, price: 95 },
+    ],
+  },
+
+   {
+    id: 13,
+    name: "ARK WHOLE CINAMON",
+    image: "/spices/whole innamon.jpg",
+    variants: [
+      { size: "200gm", packUnits: 48, price: 95 },
+    ],
+  },
+];
+
+
+
+
+
+
+
+
+
+
+
 export const WHY_CHOOSE = [
   {
     icon: Globe,
