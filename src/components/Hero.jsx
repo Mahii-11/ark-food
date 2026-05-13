@@ -4,9 +4,9 @@ import { Globe, ShieldCheck, ArrowDown } from "lucide-react";
 import { easing, slowEasing, staggerContainer, fadeUp } from "../lib/animations";
 
 const STATS = [
-  { value: "50+", label: "Global Suppliers" },
-  { value: "30+", label: "Countries Served" },
-  { value: "6", label: "Product Categories" },
+  { value: "10+", label: "Global Suppliers" },
+  { value: "5+", label: "Countries Served" },
+  { value: "10", label: "Product Categories" },
   { value: "100%", label: "Quality Assured" },
 ];
 
@@ -155,7 +155,7 @@ export default function Hero() {
         </motion.div>
       </motion.div>
 
-      {/* Scroll indicator */}
+      {/* Scroll indicator 
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -171,7 +171,7 @@ export default function Hero() {
         >
           <ArrowDown className="w-4 h-4 text-white/30" />
         </motion.div>
-      </motion.div>
+      </motion.div> */}
     </section>
   );
 }

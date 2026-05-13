@@ -4,10 +4,10 @@ import { WHY_CHOOSE } from "../data/productdata";
 import SectionReveal from "../components/SectionReveal";
 
 const STATS = [
-  { value: "50+", desc: "Verified global suppliers across 4 continents", accent: true },
-  { value: "30+", desc: "Countries served with consistent delivery", accent: false },
+  { value: "10+", desc: "Verified global suppliers across 4 continents", accent: true },
+  { value: "5+", desc: "Countries served with consistent delivery", accent: false },
   { value: "100%", desc: "Food safety compliance on every shipment", accent: false },
-  { value: "6", desc: "Core dry food product categories", accent: true },
+  { value: "10", desc: "Core dry food product categories", accent: true },
 ];
 
 export default function About() {

@@ -23,7 +23,7 @@ export default function Footer() {
 
           <div className="md:col-span-2">
             <p className="font-serif text-3xl font-bold tracking-tight text-white mb-4">
-              ARK<span className="font-sans font-medium text-lg tracking-normal text-white/60 ml-2">World Foods</span>
+              ARK World Foods
             </p>
             <p className="text-white/60 max-w-sm leading-relaxed">
               Connecting global producers with local markets through reliable, high-quality dry food imports. Bulk supply. Global sourcing. Quality assured.
@@ -60,7 +60,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-white/40 text-sm">
-            © {new Date().getFullYear()} ARK World Foods. All rights reserved.
+            © {new Date().getFullYear()} ARK World Foods Creativeassociate. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-white/40 hover:text-white text-sm transition-colors duration-200">Privacy Policy</a>

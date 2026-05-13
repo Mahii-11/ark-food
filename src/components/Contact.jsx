@@ -4,9 +4,9 @@ import { Button } from "../components/ui/button";
 import { fadeLeft, fadeRight, fadeUp, staggerContainer, easing } from "../lib/animations";
 
 const CONTACT_INFO = [
-  { icon: Mail,   label: "Email",       value: "info@arkworldfoods.com" },
-  { icon: Phone,  label: "Phone",       value: "+1 (800) 275-0199" },
-  { icon: MapPin, label: "Head Office", value: "ARK World Foods Ltd\nInternational Trade District" },
+  { icon: Mail,   label: "Email",       value: "info.arkworldfoods@creativeassociate.co.uk" },
+  { icon: Phone,  label: "Phone",       value: "+447736356704" },
+  { icon: MapPin, label: "Head Office", value: "ARK World Foods Office Y08, 11 Bryant Avenue, Harold Wood, Romford,  RM13 0AP, London. arkworldfoods@creativeassociate.co.uk" },
 ];
 
 const PRODUCT_OPTIONS = [
@@ -57,7 +57,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-foreground mb-0.5">{item.label}</p>
-                    <p className="text-muted-foreground whitespace-pre-line">{item.value}</p>
+                    <p className="text-muted-foreground whitespace-pre-line text-[10px] sm:text-[13px] md:text-[15px]">{item.value}</p>
                   </div>
                 </motion.div>
               ))}

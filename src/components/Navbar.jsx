@@ -16,9 +16,17 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-6 h-20 flex items-center justify-between">
         <div className="flex items-center gap-8">
-          <Link href="/" className="font-serif text-2xl font-bold tracking-tight text-primary">
-            ARK
-          </Link>
+         <Link href="/" className="flex flex-col items-center">
+            <img
+             src="/images/logo.png"
+             alt="Ark logo"
+             className="h-10 sm:h-12 md:h-14 w-auto object-contain transition-transform duration-300 hover:scale-105"
+            />
+
+           <span className=" text-[7px] sm:text-[10px] font-semibold tracking-wide text-primary">
+             ARK World Foods
+          </span>
+         </Link>
           <nav className="hidden md:flex items-center gap-6">
             {NAV_LINKS.map((link) => (
               <a
