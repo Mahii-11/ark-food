@@ -20,10 +20,10 @@ export default function Navbar() {
             <img
              src="/images/logo.png"
              alt="Ark logo"
-             className="h-10 sm:h-12 md:h-14 w-auto object-contain transition-transform duration-300 hover:scale-105"
+             className="h-6 sm:h-8 md:h-10 w-auto object-contain transition-transform duration-300 hover:scale-105"
             />
 
-           <span className=" text-[7px] sm:text-[10px] font-semibold tracking-wide text-primary">
+           <span className=" text-[7px] sm:text-[7px] font-semibold tracking-wide text-primary">
              ARK World Foods
           </span>
          </Link>
