@@ -62,11 +62,11 @@ export default function Products() {
           </span>
         </div>
 
-        <div className="absolute top-4 right-4">
+       {/*  <div className="absolute top-4 right-4">
           <span className="inline-block px-3 py-1 bg-primary text-primary-foreground text-xs font-bold rounded-full shadow-md">
             ৳ {firstVariant?.price || "0"}
           </span>
-        </div>
+        </div>*/}
 
         {/* ENQUIRE BUTTON */}
         <div className="absolute bottom-4 right-4 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 ease-out">

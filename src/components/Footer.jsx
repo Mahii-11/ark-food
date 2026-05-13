@@ -60,7 +60,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-white/40 text-sm">
-            © {new Date().getFullYear()} ARK World Foods Creativeassociate. All rights reserved.
+            © {new Date().getFullYear()} CreativeassociateLimited All rights reserved..
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-white/40 hover:text-white text-sm transition-colors duration-200">Privacy Policy</a>

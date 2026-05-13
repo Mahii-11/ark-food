@@ -4,7 +4,7 @@ export const PRODUCTS = [
   {
     id: 1,
     name: "AKIJ ESSENTIAL CHINIGURA RICE",
-    image: "/images/products/chinigura-rice.jpg",
+    image: "/images/image-1.jpg",
     variants: [
       { size: "1kg", packUnits: 10, price: 120 },
       { size: "2kg", packUnits: 5, price: 235 },
@@ -14,7 +14,7 @@ export const PRODUCTS = [
   {
     id: 2,
     name: "AKIJ ESSENTIAL KALIJEERA RICE",
-    image: "/images/products/kalijeera-rice.jpg",
+    image: "/images/image-2.jpg",
     variants: [
       { size: "1kg", packUnits: 10, price: 140 },
       { size: "2kg", packUnits: 5, price: 270 },
@@ -24,7 +24,7 @@ export const PRODUCTS = [
   {
     id: 3,
     name: "Pure Chinigura Rice",
-    image: "/images/products/pure-chinigura.jpg",
+    image: "/images/image-3.jpg",
     variants: [
       { size: "1kg", packUnits: 10, price: 115 },
       { size: "2kg", packUnits: 5, price: 220 },
@@ -34,7 +34,7 @@ export const PRODUCTS = [
   {
     id: 4,
     name: "Pure Kalijeera Rice",
-    image: "/images/products/pure-kalijeera.jpg",
+    image: "/images/image-4.jpg",
     variants: [
       { size: "1kg", packUnits: 10, price: 135 },
       { size: "2kg", packUnits: 5, price: 260 },
@@ -44,7 +44,7 @@ export const PRODUCTS = [
   {
     id: 5,
     name: "ARK White Binni Rice",
-    image: "/images/products/white-binni.jpg",
+    image: "/images/imgae-5.jpg",
     variants: [
       { size: "1kg", packUnits: 10, price: 95 },
     ],
@@ -52,7 +52,7 @@ export const PRODUCTS = [
   {
     id: 6,
     name: "ARK Red Binni Rice",
-    image: "/images/products/red-binni.jpg",
+    image: "/images/image-3.jpg",
     variants: [
       { size: "1kg", packUnits: 10, price: 105 },
     ],
@@ -60,7 +60,7 @@ export const PRODUCTS = [
   {
     id: 7,
     name: "Essential Rice Flour",
-    image: "/images/products/rice-flour.jpg",
+    image: "/images/image-1.jpg",
     variants: [
       { size: "1kg", packUnits: 10, price: 85 },
     ],
@@ -68,7 +68,7 @@ export const PRODUCTS = [
   {
     id: 8,
     name: "Essential Red Lentil",
-    image: "/images/products/red-lentil.jpg",
+    image: "/images/image-2.jpg",
     variants: [
       { size: "1000gm", packUnits: 10, price: 150 },
     ],
@@ -76,7 +76,7 @@ export const PRODUCTS = [
   {
     id: 9,
     name: "ARK MUNG DAL",
-    image: "/images/products/mung-dal.jpg",
+    image: "/images/image-3.jpg",
     variants: [
       { size: "1kg", packUnits: 10, price: 165 },
     ],
@@ -84,7 +84,7 @@ export const PRODUCTS = [
   {
     id: 10,
     name: "ARK Kheshari Dal (Yellow Lentil)",
-    image: "/images/products/kheshari-dal.jpg",
+    image: "/images/image-4.jpg",
     variants: [
       { size: "1000gm", packUnits: 10, price: 130 },
     ],
@@ -92,7 +92,7 @@ export const PRODUCTS = [
   {
     id: 11,
     name: "ARK Chatpoti Dal (Yellow Peas)",
-    image: "/images/products/chatpoti-dal.jpg",
+    image: "/images/imgae-5.jpg",
     variants: [
       { size: "500gm", packUnits: 20, price: 75 },
     ],
@@ -100,7 +100,7 @@ export const PRODUCTS = [
   {
     id: 12,
     name: "ARK Red Flattened Rice (Chira)",
-    image: "/images/products/red-chira.jpg",
+    image: "/images/image-1.jpg",
     variants: [
       { size: "500gm", packUnits: 20, price: 60 },
     ],
@@ -108,7 +108,7 @@ export const PRODUCTS = [
   {
     id: 13,
     name: "PURE Flattened Rice (Chira)",
-    image: "/images/products/pure-chira.jpg",
+    image: "/images/image-4.jpg",
     variants: [
       { size: "500gm", packUnits: 20, price: 65 },
     ],
@@ -116,7 +116,7 @@ export const PRODUCTS = [
   {
     id: 14,
     name: "ARK Puffed Rice",
-    image: "/images/products/puffed-rice.jpg",
+    image: "/images/image-2.jpg",
     variants: [
       { size: "250gm", packUnits: 32, price: 40 },
       { size: "500gm", packUnits: 16, price: 75 },
@@ -125,7 +125,7 @@ export const PRODUCTS = [
   {
     id: 15,
     name: "ACI Pure Vermicelli",
-    image: "/images/products/vermicelli.jpg",
+    image: "/images/image-4.jpg",
     variants: [
       { size: "200gm", packUnits: 48, price: 35 },
     ],
