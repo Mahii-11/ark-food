@@ -6,17 +6,17 @@ import { fadeLeft, fadeRight, fadeUp, staggerContainer, easing } from "../lib/an
 const CONTACT_INFO = [
   { icon: Mail,   label: "Email",       value: "info.arkworldfoods@creativeassociate.co.uk" },
   { icon: Phone,  label: "Phone",       value: "+447736356704" },
-  { icon: MapPin, label: "Head Office", value: "ARK World Foods Office Y08, 11 Bryant Avenue, Harold Wood, Romford,  RM13 0AP, London. arkworldfoods@creativeassociate.co.uk" },
+  { icon: MapPin, label: "Head Office", value: "Y08, 11 Bryant Avenue, Harold Wood, Romford,  RM13 0AP, London." },
 ];
 
 const PRODUCT_OPTIONS = [
-  { value: "grains",  label: "Grains & Cereals" },
-  { value: "pulses",  label: "Pulses & Legumes" },
-  { value: "rice",    label: "Rice Varieties" },
-  { value: "nuts",    label: "Nuts & Seeds" },
-  { value: "fruits",  label: "Dried Fruits" },
-  { value: "spices",  label: "Spices & Specialty" },
-  { value: "other",   label: "Other / Multiple" },
+  { value: "rice", label: "RICE" },
+  { value: "cooking-foods", label: "COOKING FOODS" },
+  { value: "spices", label: "SPICES" },
+  { value: "snacks", label: "SNACKS" },
+  { value: "cookies", label: "COOKIES" },
+  { value: "sweets", label: "SWEETS" },
+  { value: "drinks", label: "DRINKS" },
 ];
 
 export default function Contact() {
