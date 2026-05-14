@@ -3,8 +3,10 @@ import { easing, slowEasing } from "../lib/animations";
 
 export default function BrandHero() {
   return (
-    <section className="relative w-full overflow-hidden bg-[#329944] py-24 md:py-36">
-
+    <section
+      id="home"
+      className="relative w-full overflow-hidden bg-[#329944] py-24 md:py-36"
+    >
       {/* Decorative arcs */}
       <div className="pointer-events-none absolute -top-36 -left-36 w-[460px] h-[460px] rounded-full border-[52px] border-[#3daf52]/70" />
       <div className="pointer-events-none absolute -top-20 -right-20 w-[300px] h-[300px] rounded-full border-[38px] border-[#3daf52]/50" />
@@ -13,7 +15,6 @@ export default function BrandHero() {
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center px-6 text-center">
-
         {/* Logo */}
         <motion.div
           initial={{ opacity: 0, scale: 0.75, y: 20 }}
@@ -39,7 +40,10 @@ export default function BrandHero() {
         >
           <h2
             className="font-serif font-semibold text-white"
-            style={{ fontSize: "clamp(2.4rem, 6vw, 4.5rem)", letterSpacing: "0.12em" }}
+            style={{
+              fontSize: "clamp(2.4rem, 6vw, 4.5rem)",
+              letterSpacing: "0.12em",
+            }}
           >
             ARK WORLD FOODS
           </h2>
@@ -53,7 +57,8 @@ export default function BrandHero() {
           transition={{ duration: 0.6, delay: 0.38, ease: easing }}
           className="font-sans font-light text-white/70 text-[0.78rem] tracking-[0.2em] uppercase mb-12 max-w-md"
         >
-          Premium Dry Food Imports &nbsp;·&nbsp; Global Sourcing &nbsp;·&nbsp; Quality Assured
+          Premium Dry Food Imports &nbsp;·&nbsp; Global Sourcing &nbsp;·&nbsp;
+          Quality Assured
         </motion.p>
 
         {/* Divider */}
@@ -65,7 +70,6 @@ export default function BrandHero() {
           className="w-16 h-px bg-white/30 mb-12 origin-center"
         />
 
-      
         {/* CTA */}
         <motion.div
           initial={{ opacity: 0, y: 14 }}
@@ -80,7 +84,6 @@ export default function BrandHero() {
             Get in Touch
           </a>
         </motion.div>
-
       </div>
     </section>
   );

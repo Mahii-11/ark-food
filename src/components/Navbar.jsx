@@ -1,14 +1,13 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Link } from "wouter";
-import { Search, Menu, X} from "lucide-react";
+import { Search, Menu, X } from "lucide-react";
 import { slowEasing, easing } from "../lib/animations";
 
 const NAV_LINKS = [
-  { label: "Home",     href: "#home" },
+  { label: "Home", href: "#home" },
   { label: "Products", href: "#products" },
-  { label: "About",    href: "#about" },
-  { label: "Contact",  href: "#contact" },
+  { label: "About", href: "#about" },
+  { label: "Contact", href: "#contact" },
 ];
 
 export default function Navbar() {
@@ -24,20 +23,19 @@ export default function Navbar() {
         className="fixed top-[3px] left-0 right-0 z-50 bg-background/85 backdrop-blur-xl border-b border-border/30"
       >
         <div className="container mx-auto px-6 h-20 flex items-center justify-between">
-
           {/* Logo */}
           <div className="flex items-center gap-10">
-          <Link href="/" className="flex flex-col items-center">
-            <img
-             src="/images/logo.png"
-             alt="Ark logo"
-             className="h-6 sm:h-8 md:h-10 w-auto object-contain transition-transform duration-300 hover:scale-105"
-            />
+            <a href="#home" className="flex flex-col items-center">
+              <img
+                src="/images/logo.png"
+                alt="Ark logo"
+                className="h-6 sm:h-8 md:h-10 w-auto object-contain transition-transform duration-300 hover:scale-105"
+              />
 
-           <span className=" text-[7px] sm:text-[7px] font-semibold tracking-wide text-primary">
-             ARK World Foods
-          </span>
-         </Link>
+              <span className=" text-[7px] sm:text-[7px] font-semibold tracking-wide text-primary">
+                ARK World Foods
+              </span>
+            </a>
 
             {/* Desktop nav */}
             <nav className="hidden md:flex items-center gap-8">
@@ -56,7 +54,10 @@ export default function Navbar() {
 
           {/* Actions */}
           <div className="flex items-center gap-3">
-            <button className="p-2 text-foreground/50 hover:text-primary transition-colors" data-testid="button-search">
+            <button
+              className="p-2 text-foreground/50 hover:text-primary transition-colors"
+              data-testid="button-search"
+            >
               <Search className="w-4 h-4" />
             </button>
             <a
@@ -107,9 +108,13 @@ export default function Navbar() {
               {/* Drawer header */}
               <div className="flex items-center justify-between px-6 h-20 border-b border-border/40">
                 <div className="flex items-center gap-2.5">
-                  <span className="font-serif text-[1.5rem] font-semibold tracking-[-0.02em] text-primary leading-none">ARK</span>
+                  <span className="font-serif text-[1.5rem] font-semibold tracking-[-0.02em] text-primary leading-none">
+                    ARK
+                  </span>
                   <span className="w-px h-4 bg-border/60" />
-                  <span className="font-sans text-[0.65rem] font-medium tracking-[0.2em] uppercase text-muted-foreground leading-none">World Foods</span>
+                  <span className="font-sans text-[0.65rem] font-medium tracking-[0.2em] uppercase text-muted-foreground leading-none">
+                    World Foods
+                  </span>
                 </div>
                 <button
                   onClick={() => setDrawerOpen(false)}
@@ -128,7 +133,11 @@ export default function Navbar() {
                     href={link.href}
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.32, delay: 0.08 + i * 0.06, ease: easing }}
+                    transition={{
+                      duration: 0.32,
+                      delay: 0.08 + i * 0.06,
+                      ease: easing,
+                    }}
                     onClick={() => setDrawerOpen(false)}
                     className="group flex items-center gap-4 px-4 py-4 rounded-xl font-sans text-[0.78rem] font-medium tracking-[0.12em] uppercase text-foreground/60 hover:text-primary hover:bg-primary/5 transition-all duration-200"
                   >
@@ -144,4 +153,3 @@ export default function Navbar() {
     </>
   );
 }
-
